@@ -1,0 +1,40 @@
+.main {
+    height: 500px;
+    width: 500px;
+    border: 2px double red;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url(Ashuu.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    animation: Text 5s ease-in-out 1s infinite alternate;
+}
+
+.content {
+    margin-top: 20%;
+}
+
+audio {
+    height: 30px;
+    width: 110px;
+    }
+ 
+
+@keyframes Text {
+    from {
+         font-size: 10px;
+         color: red;
+         border-radius: 50%;
+    }
+
+    to {
+        font-size: 50px;
+        color: blue;
+        border-radius: 40px;
+        background-image: url(ashuu3.jpg);
+        background-size: cover;
+    }
+
+}
+
